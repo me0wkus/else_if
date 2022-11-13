@@ -1,9 +1,8 @@
-﻿#include <iostream>
+#include <iostream>
 
 using namespace std;
 
 int main() {
-	setlocale(0, "");
 	double n;
 
 	cout << "Enter the operator to perform: ";
@@ -12,15 +11,15 @@ int main() {
 	if (n < 10) 
 		cout << "This number is lower than 10" << endl;
 	
-	else {
+	else 
 
-		if (n == 10) {
+		if (n == 10) 
 			cout << "This number is 10" << endl;
-		}
-		else {
+		
+		else 
 			cout << "This number is more than 10" << endl;
-		}
-	}
+		
+	
 	return 0;
 
 }
